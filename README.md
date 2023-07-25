@@ -7,9 +7,14 @@ Your own customizable ChatGPT Webapp made in Python using Streamlit.
    ```shell
    $ git clone https://github.com/anishsingh20/Streamlit-Webapp-ChatGPT/
    ```
-2) Get inside the directory ```Streamlit-GPT-app```.
+
+2) Install required libraries:
+   ```shell
+   pip install streamlit openai
+   ``` 
+3) Get inside the directory ```Streamlit-GPT-app```.
    
-3) Run the following python ```GptWebappv2.py``` file which has the source code using command:
+4) Run the following python ```GptWebappv2.py``` file which has the source code using command:
    
    ```shell
     $ streamlit run chatbot_app.py
